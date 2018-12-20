@@ -4,7 +4,7 @@
 @import "bootstrap/scss/bootstrap";
 
 body {
-  background-image: url('/assets/diamond.svg');
+  background-image: url('{{ '/assets/diamond.svg' | relative_url }}');
   background-position: center top 30px;
 }
 
