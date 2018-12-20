@@ -1,0 +1,13 @@
+$blue: #003087;
+$orange: #fe5000;
+$dkblue: #041e42;
+$white: #fff;
+
+$body-bg: $blue;
+$body-color: $white;
+
+$theme-colors: (
+  "primary": $blue,
+  "secondary": $orange,
+  "info": $dkblue
+);

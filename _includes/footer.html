@@ -1,0 +1,6 @@
+<script src="{{'/node_modules/jquery/dist/jquery.min.js' | relative_url}}"></script>
+<script src="{{'/node_modules/popper.js/dist/umd/popper.min.js' | relative_url}}"></script>
+<script src="{{'/node_modules/bootstrap/dist/js/bootstrap.min.js' | relative_url}}"></script>
+{% if jekyll.environment == 'production' and site.google_analytics %}
+  {% include google-analytics.html %}
+{% endif %}
