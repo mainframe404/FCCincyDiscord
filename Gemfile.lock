@@ -29,10 +29,14 @@ GEM
       safe_yaml (~> 1.0)
     jekyll-feed (0.11.0)
       jekyll (~> 3.3)
+    jekyll-redirect-from (0.14.0)
+      jekyll (~> 3.3)
     jekyll-sass-converter (1.5.2)
       sass (~> 3.4)
     jekyll-seo-tag (2.5.0)
       jekyll (~> 3.3)
+    jekyll-tagging (1.1.0)
+      nuggets
     jekyll-watch (2.1.2)
       listen (~> 3.0)
     kramdown (1.17.0)
@@ -42,13 +46,13 @@ GEM
       rb-inotify (~> 0.9, >= 0.9.7)
       ruby_dep (~> 1.2)
     mercenary (0.3.6)
-    minima (2.5.0)
-      jekyll (~> 3.5)
-      jekyll-feed (~> 0.9)
-      jekyll-seo-tag (~> 2.1)
+    multi_json (1.13.1)
+    nuggets (1.6.0)
     pathutil (0.16.2)
       forwardable-extended (~> 2.6)
     public_suffix (3.0.3)
+    pygments.rb (1.2.1)
+      multi_json (>= 1.0.0)
     rb-fsevent (0.10.3)
     rb-inotify (0.10.0)
       ffi (~> 1.0)
@@ -65,10 +69,16 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (~> 3.7.3)
+  jekyll (= 3.7.4)
   jekyll-feed (~> 0.6)
-  minima (~> 2.0)
+  jekyll-redirect-from
+  jekyll-seo-tag
+  jekyll-tagging
+  pygments.rb
   tzinfo-data
+
+RUBY VERSION
+   ruby 2.5.1p57
 
 BUNDLED WITH
    1.17.2

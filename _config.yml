@@ -13,22 +13,38 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Your awesome title
-email: your-email@example.com
+title: FC Cincy Discord
+#email: your-email@example.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Officially unofficial Discord community of FC Cincinnati, providing memes
+  and dysfunction since 2017
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+
+# branding/design
+theme_color: '#003087'
+logo: /assets/fccdiscord.svg
+
+# social media
+twitter:
+  username: FCCincyDiscord
+  card: summary
+social:
+  links:
+    - https://twitter.com/FCCincyDiscord
+discord_link: https://discord.gg/KcfMSnE
+ranks_link: https://mee6.xyz/leaderboard/336530301205479434
 
 # Build settings
 markdown: kramdown
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-seo-tag
+
+sass:
+  load_paths:
+    - _sass
+    - node_modules
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -41,3 +57,10 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/

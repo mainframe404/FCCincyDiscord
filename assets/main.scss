@@ -1,0 +1,39 @@
+---
+---
+@import "variables";
+@import "bootstrap/scss/bootstrap";
+
+body {
+  background-image: url('/assets/diamond.svg');
+  background-position: center top 30px;
+}
+
+.faicon {
+  fill: $body-color;
+  width: 20px;
+  margin-left: $spacer * 0.25;
+  margin-right: $spacer * 0.25;
+}
+
+.site-title {
+  font-size: 3.5rem;
+  text-align: center;
+  font-weight: $display2-weight;
+}
+@include media-breakpoint-up(md) {
+  .site-title {
+    font-size: 4.5rem;
+  }
+}
+@include media-breakpoint-up(lg) {
+  .site-title {
+    font-size: 5.5rem;
+  }
+}
+
+.friend-jumbotron {
+  background-image: url('/assets/garythink.svg');
+  background-position: right -1em bottom -1em;
+  background-size: 30%;
+  background-repeat: no-repeat;
+}

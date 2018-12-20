@@ -1,0 +1,13 @@
+{% assign target_url = content | escape | strip_newlines %}
+<!doctype html>
+<html>
+<head>
+  <title>Redirecting...</title>
+  <meta http-equiv="refresh" content="0; URL='{{ target_url }}'" />
+  <style> body { font-family: sans-serif; } </style>
+</head>
+<body>
+  <h1>Redirecting...</h1>
+  <p>Click <a href="{{ target_url }}">here</a> if you are not automatically redirected.</p>
+</body>
+</html>
