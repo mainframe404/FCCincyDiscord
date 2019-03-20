@@ -15,6 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: FC Cincy Discord
 #email: your-email@example.com
+google_analytics: UA-136499016-1
 description: >- # this means to ignore newlines until "baseurl:"
   Officially unofficial Discord community of FC Cincinnati, providing memes
   and dysfunction since 2017
