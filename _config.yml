@@ -63,3 +63,5 @@ exclude:
   - vendor/cache/
   - vendor/gems/
   - vendor/ruby/
+  
+google_analytics: UA-136499016-1
